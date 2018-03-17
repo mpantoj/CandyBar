@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Inicio</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-card (tap)="seleccion(1)">
+    <img src="assets/imgs/candy.jpg"/>
+    <div class="card-tittle">Dulces</div>
+    <div class="card-subtitle">Ideales</div>
+  </ion-card>
+  <ion-card (tap)="seleccion(2)">
+      <img src="assets/imgs/caramel.jpg"/>
+      <div class="card-tittle">Caramelos</div>
+      <div class="card-subtitle">sin azúcar</div>
+  </ion-card>
+  <ion-card (tap)="seleccion(3)">
+        <img src="assets/imgs/caramel2.jpg"/>
+        <div class="card-tittle">Postres</div>
+        <div class="card-subtitle">Para todo Gusto</div>
+  </ion-card>
+  <ion-card (tap)="seleccion(4)">
+      <img src="assets/imgs/paletas.jpg"/>
+      <div class="card-tittle">Reposteria Fina</div>
+      <div class="card-subtitle">Postres gurmet</div>
+  </ion-card>
+</ion-content>
